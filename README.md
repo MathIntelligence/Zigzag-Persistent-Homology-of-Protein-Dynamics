@@ -1,8 +1,8 @@
 # Zigzag Persistent Homology of Protein Dynamics
 
-Reproduction code and supporting inputs for the manuscript by Milap Rajgor and Duc Nguyen. The workflow computes and analyzes residue-labelled zigzag persistence on Cα contact complexes from molecular dynamics trajectories.
+Code and supporting data for the paper *Zigzag Persistent Homology of Protein Dynamics* by Milap Rajgor and Duc Nguyen. The workflow computes and analyzes residue-labelled zigzag persistence on Cα contact complexes from molecular dynamics trajectories.
 
-## Reproduce the manuscript results
+## Reproduce the paper’s results
 
 From the repository root, with Python 3.11 or later:
 
@@ -25,6 +25,6 @@ These commands use included inputs to reproduce the headline counts, window feat
 | [`ancillary/code/`](ancillary/code/) | Reproduction scripts, topology implementation, and archived analysis drivers |
 | [`ancillary/data/`](ancillary/data/) | Saved barcodes, window features, tracker outputs, selected coordinates, and validation records |
 | [`ancillary/protocols/`](ancillary/protocols/) | Frozen analysis protocols and amendments |
-| [`figures/`](figures/) | Companion manuscript figures |
+| [`figures/`](figures/) | Figures from the paper |
 
 The primary trajectories come from [mdCATH](https://huggingface.co/datasets/compsciencelab/mdCATH) at revision `5e3ed8aec62b689e01751db16275fdcdbc39e47f`. The included data support the reproduction commands above. Full-cohort coordinate-level recomputation requires the pinned trajectories and the path adaptations described in the companion README. Source datasets retain their original terms and attribution requirements.
