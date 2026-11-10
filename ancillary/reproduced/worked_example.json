@@ -1,0 +1,41 @@
+{
+  "protein": "2fd5A02",
+  "temperature": 450,
+  "replica": 1,
+  "start": 380,
+  "stop": 400,
+  "min_beta": 1,
+  "max_beta": 3,
+  "spanning": 0,
+  "mean_Q": 0.1531914893617021,
+  "cycles_one_based_indices": {
+    "380": [
+      22,
+      23,
+      24,
+      25,
+      31,
+      33,
+      35
+    ],
+    "389": [
+      27,
+      28,
+      30,
+      31
+    ],
+    "399": [
+      35,
+      33,
+      32,
+      30,
+      29,
+      27,
+      26,
+      24,
+      23,
+      36
+    ]
+  },
+  "cycle_scope": "Independently chosen non-boundary cycles; not compatible barcode representatives."
+}

@@ -1,0 +1,27 @@
+266965
+{
+ "dispersion": 0.9105910630255681,
+ "poisson_z": {
+  "flux": 98.2,
+  "adc": 4.6
+ },
+ "poisson_cluster_residue_z": {
+  "flux": 24.8,
+  "adc": 3.0
+ },
+ "poisson_cluster_frame_z": {
+  "flux": 83.9,
+  "adc": 4.7
+ },
+ "negbin_z": {
+  "flux": 98.2,
+  "adc": 4.6
+ },
+ "negbin_cluster_residue_z": {
+  "flux": 24.8,
+  "adc": 3.0
+ },
+ "negbin_alpha": 7.557053886162314e-07,
+ "irr_flux": 1.2422442693331637,
+ "irr_adc": 1.0157890434506183
+}

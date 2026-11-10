@@ -1,0 +1,42 @@
+cohort: 44 domains, 204 qualifying runs, 4772 windows, 2091 occupied
+
+== PRIMARY native-like (Q>=0.6) vs unfolded (Q<0.3), occupied windows: eligible domains 17, windows 1123
+  LODO beta trace               median 0.967 worst 0.40 (n=17)
+  LODO tracker                  median 0.950 worst 0.42 (n=17)
+  LODO zigzag                   median 0.984 worst 0.69 (n=17)
+  LODO tracker + zigzag         median 0.992 worst 0.81 (n=17)
+  LODO beta + tracker           median 0.981 worst 0.53 (n=17)
+  LODO beta + tracker + zigzag  median 0.981 worst 0.80 (n=17)
+  PRIMARY tracker + zigzag - tracker: median diff +0.021, wins 13/17 (ties 2), 95% CI [+0.000, +0.041], P(<=0) 0.059
+  PRIMARY RESULT: FAIL (needs CI lower bound > 0 and wins > 8.5)
+
+== S1 secondary comparisons (same task)
+  zigzag - tracker: median diff +0.011, wins 10/17 (ties 2), 95% CI [-0.001, +0.043], P(<=0) 0.339
+  beta + tracker + zigzag - beta + tracker: median diff +0.002, wins 10/17 (ties 2), 95% CI [+0.000, +0.018], P(<=0) 0.392
+  tracker - beta trace: median diff +0.000, wins 7/17 (ties 2), 95% CI [-0.026, +0.019], P(<=0) 0.863
+  zigzag - beta trace: median diff +0.008, wins 10/17 (ties 4), 95% CI [+0.000, +0.025], P(<=0) 0.432
+
+== S2 hidden replacement vs tracker (occupied windows)
+  occupied 2091, zigzag-continuous 1246, hidden replacement 845 (40.4%)
+  eps        labels continuous: zz-continuous  85.9% | hidden replacement  73.4% | balanced acc 0.563
+  eps_g0.25  labels continuous: zz-continuous   0.9% | hidden replacement   0.1% | balanced acc 0.504
+  eps_g0.5   labels continuous: zz-continuous   6.7% | hidden replacement   0.2% | balanced acc 0.532
+  eps_g1.0   labels continuous: zz-continuous  38.0% | hidden replacement  12.8% | balanced acc 0.626
+  full       labels continuous: zz-continuous  75.5% | hidden replacement  55.0% | balanced acc 0.602
+  full_g0.25 labels continuous: zz-continuous   0.1% | hidden replacement   0.0% | balanced acc 0.500
+  full_g0.5  labels continuous: zz-continuous   3.1% | hidden replacement   0.1% | balanced acc 0.515
+  full_g1.0  labels continuous: zz-continuous  36.4% | hidden replacement  10.4% | balanced acc 0.630
+
+== S3 predicting zigzag continuity among occupied windows
+  LODO beta trace               median 0.911 worst 0.00 (n=36)
+  LODO tracker                  median 0.859 worst 0.34 (n=36)
+  LODO beta + tracker           median 0.911 worst 0.00 (n=36)
+  beta + tracker - beta trace: median diff -0.000, wins 9/36 (ties 9), 95% CI [-0.003, +0.000], P(<=0) 0.991
+  beta trace - tracker: median diff +0.032, wins 26/36 (ties 2), 95% CI [+0.004, +0.077], P(<=0) 0.015
+
+== S4 transfer: trained on the 14 exploratory domains, tested on each eligible new domain
+  transfer tracker              median 0.970 worst 0.54 (n=17)
+  transfer zigzag               median 0.991 worst 0.64 (n=17)
+  transfer tracker + zigzag     median 0.989 worst 0.81 (n=17)
+  transfer tracker + zigzag - tracker: median diff +0.014, wins 11/17 (ties 3), 95% CI [+0.000, +0.039], P(<=0) 0.270
+  transfer zigzag - tracker: median diff +0.006, wins 9/17 (ties 3), 95% CI [-0.014, +0.039], P(<=0) 0.649

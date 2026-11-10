@@ -1,0 +1,94 @@
+condition,transition,from_frame,to_frame,w1,h1_births,h1_deaths,zigzag_events,is_low_w1_candidate,n_lost_edges,n_gained_edges,top_changed_residues
+348K,1,0,1,12.64824104309082,1,2,3,False,,,
+348K,3,2,3,9.875903129577637,1,1,2,True,43,43,"GLY19:0:CA[idx=12,changes=7]; THR23:0:CA[idx=16,changes=5]; PRO77:0:CA[idx=70,changes=5]; SER108:0:CA[idx=101,changes=5]; LEU79:0:CA[idx=72,changes=4]; TYR7:0:CA[idx=0,changes=4]; VAL78:0:CA[idx=71,changes=4]; MET103:0:CA[idx=96,changes=4]; ASP76:0:CA[idx=69,changes=4]; SER92:0:CA[idx=85,changes=4]; SER21:0:CA[idx=14,changes=4]; THR24:0:CA[idx=17,changes=4]; GLY66:0:CA[idx=59,changes=4]; ALA25:0:CA[idx=18,changes=3]; VAL31:0:CA[idx=24,changes=3]"
+348K,4,3,4,10.873022079467773,1,0,1,True,30,43,"GLY19:0:CA[idx=12,changes=7]; LEU79:0:CA[idx=72,changes=6]; ALA22:0:CA[idx=15,changes=6]; MET103:0:CA[idx=96,changes=5]; SER108:0:CA[idx=101,changes=5]; PRO77:0:CA[idx=70,changes=5]; GLY58:0:CA[idx=51,changes=4]; ALA25:0:CA[idx=18,changes=4]; VAL78:0:CA[idx=71,changes=4]; VAL96:0:CA[idx=89,changes=4]; ASN104:0:CA[idx=97,changes=3]; GLN87:0:CA[idx=80,changes=3]; ASP68:0:CA[idx=61,changes=3]; PRO72:0:CA[idx=65,changes=3]; PHE113:0:CA[idx=106,changes=3]"
+348K,5,4,5,11.245410919189453,0,2,2,False,,,
+348K,6,5,6,12.421643257141113,1,1,2,False,,,
+348K,7,6,7,12.452197074890137,2,1,3,False,,,
+348K,8,7,8,12.897953033447266,2,1,3,False,,,
+348K,9,8,9,11.041402816772461,1,2,3,True,47,42,"ALA8:0:CA[idx=1,changes=7]; PHE113:0:CA[idx=106,changes=6]; LYS18:0:CA[idx=11,changes=6]; GLY19:0:CA[idx=12,changes=5]; ALA49:0:CA[idx=42,changes=5]; THR24:0:CA[idx=17,changes=5]; ALA112:0:CA[idx=105,changes=5]; ASP68:0:CA[idx=61,changes=5]; SER108:0:CA[idx=101,changes=4]; THR23:0:CA[idx=16,changes=4]; GLY17:0:CA[idx=10,changes=4]; ALA25:0:CA[idx=18,changes=4]; PRO9:0:CA[idx=2,changes=4]; GLY88:0:CA[idx=81,changes=4]; THR34:0:CA[idx=27,changes=4]"
+348K,10,9,10,11.988311767578125,0,1,1,False,,,
+348K,12,11,12,13.423446655273438,2,0,2,False,,,
+348K,13,12,13,11.00755786895752,0,3,3,True,42,30,"PRO27:0:CA[idx=20,changes=5]; LEU79:0:CA[idx=72,changes=5]; SER21:0:CA[idx=14,changes=5]; VAL20:0:CA[idx=13,changes=5]; THR23:0:CA[idx=16,changes=5]; ALA49:0:CA[idx=42,changes=4]; TRP86:0:CA[idx=79,changes=4]; ALA26:0:CA[idx=19,changes=4]; ALA25:0:CA[idx=18,changes=4]; SER108:0:CA[idx=101,changes=3]; VAL96:0:CA[idx=89,changes=3]; THR15:0:CA[idx=8,changes=3]; GLY66:0:CA[idx=59,changes=3]; PHE111:0:CA[idx=104,changes=3]; VAL31:0:CA[idx=24,changes=3]"
+348K,14,13,14,10.138300895690918,1,1,2,True,30,35,"LEU60:0:CA[idx=53,changes=5]; VAL110:0:CA[idx=103,changes=5]; LEU63:0:CA[idx=56,changes=4]; ASN99:0:CA[idx=92,changes=4]; ASN104:0:CA[idx=97,changes=4]; ASP68:0:CA[idx=61,changes=4]; SER98:0:CA[idx=91,changes=3]; PHE113:0:CA[idx=106,changes=3]; THR15:0:CA[idx=8,changes=3]; PRO39:0:CA[idx=32,changes=3]; GLU102:0:CA[idx=95,changes=3]; TYR75:0:CA[idx=68,changes=2]; TYR7:0:CA[idx=0,changes=2]; MET103:0:CA[idx=96,changes=2]; VAL91:0:CA[idx=84,changes=2]"
+348K,15,14,15,12.527449607849121,2,0,2,False,,,
+348K,17,16,17,14.028854370117188,1,1,2,False,,,
+348K,18,17,18,12.331146240234375,1,1,2,False,,,
+348K,19,18,19,11.34226131439209,1,3,4,False,,,
+348K,22,21,22,11.667301177978516,1,0,1,False,,,
+348K,23,22,23,12.605351448059082,1,0,1,False,,,
+348K,24,23,24,11.430316925048828,1,1,2,False,,,
+348K,25,24,25,11.009827613830566,1,1,2,True,46,35,"VAL20:0:CA[idx=13,changes=8]; VAL110:0:CA[idx=103,changes=6]; SER108:0:CA[idx=101,changes=6]; ALA22:0:CA[idx=15,changes=6]; GLY17:0:CA[idx=10,changes=5]; VAL78:0:CA[idx=71,changes=4]; MET103:0:CA[idx=96,changes=4]; LYS18:0:CA[idx=11,changes=4]; SER21:0:CA[idx=14,changes=4]; ASP52:0:CA[idx=45,changes=4]; ALA25:0:CA[idx=18,changes=4]; ASN104:0:CA[idx=97,changes=4]; SER109:0:CA[idx=102,changes=4]; PRO9:0:CA[idx=2,changes=4]; ALA26:0:CA[idx=19,changes=4]"
+348K,26,25,26,11.235593795776367,0,1,1,False,,,
+348K,27,26,27,10.849834442138672,1,1,2,True,46,49,"PRO9:0:CA[idx=2,changes=8]; SER10:0:CA[idx=3,changes=7]; ALA8:0:CA[idx=1,changes=7]; GLN87:0:CA[idx=80,changes=6]; GLY107:0:CA[idx=100,changes=6]; SER92:0:CA[idx=85,changes=5]; ALA36:0:CA[idx=29,changes=5]; ALA26:0:CA[idx=19,changes=5]; ALA112:0:CA[idx=105,changes=5]; PRO27:0:CA[idx=20,changes=4]; CYS35:0:CA[idx=28,changes=4]; GLU28:0:CA[idx=21,changes=4]; ALA11:0:CA[idx=4,changes=4]; GLY19:0:CA[idx=12,changes=4]; THR23:0:CA[idx=16,changes=3]"
+348K,28,27,28,11.222086906433105,0,2,2,True,39,46,"PRO9:0:CA[idx=2,changes=6]; SER108:0:CA[idx=101,changes=6]; GLY66:0:CA[idx=59,changes=5]; ASN104:0:CA[idx=97,changes=4]; ALA8:0:CA[idx=1,changes=4]; GLU102:0:CA[idx=95,changes=4]; PHE111:0:CA[idx=104,changes=4]; TRP86:0:CA[idx=79,changes=4]; PRO27:0:CA[idx=20,changes=4]; VAL110:0:CA[idx=103,changes=4]; ALA105:0:CA[idx=98,changes=4]; SER21:0:CA[idx=14,changes=4]; TYR7:0:CA[idx=0,changes=4]; GLY19:0:CA[idx=12,changes=3]; ALA26:0:CA[idx=19,changes=3]"
+348K,29,28,29,12.517467498779297,2,0,2,False,,,
+348K,30,29,30,11.472355842590332,0,1,1,False,,,
+348K,31,30,31,11.226313591003418,2,0,2,True,44,31,"ALA25:0:CA[idx=18,changes=8]; PRO9:0:CA[idx=2,changes=8]; VAL20:0:CA[idx=13,changes=6]; GLY17:0:CA[idx=10,changes=4]; ALA8:0:CA[idx=1,changes=4]; THR34:0:CA[idx=27,changes=4]; ALA26:0:CA[idx=19,changes=4]; ALA22:0:CA[idx=15,changes=4]; LEU60:0:CA[idx=53,changes=3]; ALA46:0:CA[idx=39,changes=3]; ALA49:0:CA[idx=42,changes=3]; THR15:0:CA[idx=8,changes=3]; GLU28:0:CA[idx=21,changes=3]; ASP83:0:CA[idx=76,changes=3]; PRO37:0:CA[idx=30,changes=3]"
+348K,32,31,32,14.009573936462402,0,2,2,False,,,
+348K,33,32,33,13.455379486083984,1,0,1,False,,,
+348K,34,33,34,10.212141036987305,0,1,1,True,28,16,"LEU33:0:CA[idx=26,changes=4]; ALA36:0:CA[idx=29,changes=4]; THR34:0:CA[idx=27,changes=4]; PRO37:0:CA[idx=30,changes=3]; LEU14:0:CA[idx=7,changes=3]; ALA49:0:CA[idx=42,changes=3]; CYS35:0:CA[idx=28,changes=3]; ALA8:0:CA[idx=1,changes=3]; ALA46:0:CA[idx=39,changes=3]; TYR7:0:CA[idx=0,changes=2]; PHE113:0:CA[idx=106,changes=2]; TRP86:0:CA[idx=79,changes=2]; ALA112:0:CA[idx=105,changes=2]; PRO72:0:CA[idx=65,changes=2]; CYS50:0:CA[idx=43,changes=2]"
+348K,35,34,35,11.760449409484863,2,0,2,False,,,
+348K,36,35,36,12.016395568847656,0,2,2,False,,,
+348K,37,36,37,11.891582489013672,3,1,4,False,,,
+348K,38,37,38,10.027158737182617,2,2,4,True,43,34,"GLY17:0:CA[idx=10,changes=5]; SER108:0:CA[idx=101,changes=5]; ASP52:0:CA[idx=45,changes=4]; ALA112:0:CA[idx=105,changes=4]; ALA36:0:CA[idx=29,changes=4]; GLY19:0:CA[idx=12,changes=4]; ALA25:0:CA[idx=18,changes=4]; LYS18:0:CA[idx=11,changes=4]; LEU60:0:CA[idx=53,changes=3]; GLY107:0:CA[idx=100,changes=3]; VAL110:0:CA[idx=103,changes=3]; LEU63:0:CA[idx=56,changes=3]; GLU102:0:CA[idx=95,changes=3]; ALA49:0:CA[idx=42,changes=3]; MET103:0:CA[idx=96,changes=3]"
+348K,39,38,39,11.109638214111328,0,2,2,True,18,44,"SER21:0:CA[idx=14,changes=7]; ALA22:0:CA[idx=15,changes=7]; ALA26:0:CA[idx=19,changes=6]; VAL20:0:CA[idx=13,changes=6]; ALA25:0:CA[idx=18,changes=5]; GLY17:0:CA[idx=10,changes=5]; GLY19:0:CA[idx=12,changes=4]; LYS18:0:CA[idx=11,changes=4]; THR81:0:CA[idx=74,changes=3]; THR23:0:CA[idx=16,changes=3]; LEU60:0:CA[idx=53,changes=3]; THR64:0:CA[idx=57,changes=3]; PRO27:0:CA[idx=20,changes=3]; SER98:0:CA[idx=91,changes=2]; SER92:0:CA[idx=85,changes=2]"
+348K,40,39,40,14.151106834411621,2,1,3,False,,,
+348K,41,40,41,11.63231372833252,1,2,3,False,,,
+348K,42,41,42,11.854089736938477,2,1,3,False,,,
+348K,43,42,43,12.384592056274414,1,1,2,False,,,
+348K,44,43,44,14.108349800109863,2,0,2,False,,,
+348K,45,44,45,13.180774688720703,0,1,1,False,,,
+348K,46,45,46,12.257916450500488,2,1,3,False,,,
+348K,47,46,47,13.665400505065918,0,3,3,False,,,
+348K,48,47,48,12.032344818115234,1,0,1,False,,,
+348K,49,48,49,13.717501640319824,0,1,1,False,,,
+450K,1,0,1,14.104341506958008,2,2,4,False,,,
+450K,2,1,2,13.733926773071289,1,2,3,False,,,
+450K,3,2,3,10.596622467041016,2,2,4,True,43,48,"VAL20:0:CA[idx=13,changes=7]; TYR7:0:CA[idx=0,changes=6]; GLY19:0:CA[idx=12,changes=6]; ALA105:0:CA[idx=98,changes=5]; ALA30:0:CA[idx=23,changes=5]; ALA8:0:CA[idx=1,changes=5]; GLN87:0:CA[idx=80,changes=5]; GLU102:0:CA[idx=95,changes=5]; PRO37:0:CA[idx=30,changes=4]; ASP68:0:CA[idx=61,changes=4]; PHE111:0:CA[idx=104,changes=4]; PRO9:0:CA[idx=2,changes=4]; VAL31:0:CA[idx=24,changes=4]; THR81:0:CA[idx=74,changes=4]; PRO27:0:CA[idx=20,changes=4]"
+450K,4,3,4,13.81911849975586,2,1,3,False,,,
+450K,5,4,5,12.365671157836914,2,1,3,True,53,56,"PHE113:0:CA[idx=106,changes=9]; THR24:0:CA[idx=17,changes=7]; ALA25:0:CA[idx=18,changes=6]; ALA8:0:CA[idx=1,changes=6]; TYR7:0:CA[idx=0,changes=6]; LEU80:0:CA[idx=73,changes=5]; ALA112:0:CA[idx=105,changes=5]; GLY17:0:CA[idx=10,changes=5]; ALA49:0:CA[idx=42,changes=4]; LEU63:0:CA[idx=56,changes=4]; CYS101:0:CA[idx=94,changes=4]; PRO37:0:CA[idx=30,changes=4]; PRO9:0:CA[idx=2,changes=4]; ALA36:0:CA[idx=29,changes=4]; LEU79:0:CA[idx=72,changes=4]"
+450K,6,5,6,12.514165878295898,1,3,4,True,50,59,"TYR7:0:CA[idx=0,changes=8]; ALA8:0:CA[idx=1,changes=8]; ALA112:0:CA[idx=105,changes=7]; PHE113:0:CA[idx=106,changes=6]; ALA26:0:CA[idx=19,changes=6]; PRO27:0:CA[idx=20,changes=5]; LYS18:0:CA[idx=11,changes=5]; VAL20:0:CA[idx=13,changes=5]; THR23:0:CA[idx=16,changes=5]; GLY19:0:CA[idx=12,changes=4]; ASP76:0:CA[idx=69,changes=4]; TRP86:0:CA[idx=79,changes=4]; ASN104:0:CA[idx=97,changes=4]; ASP68:0:CA[idx=61,changes=4]; PRO9:0:CA[idx=2,changes=4]"
+450K,7,6,7,9.697244644165039,1,2,3,True,49,44,"GLY107:0:CA[idx=100,changes=8]; LEU60:0:CA[idx=53,changes=6]; ASP68:0:CA[idx=61,changes=6]; ALA105:0:CA[idx=98,changes=6]; THR23:0:CA[idx=16,changes=5]; HSD106:0:CA[idx=99,changes=5]; ALA112:0:CA[idx=105,changes=5]; GLY19:0:CA[idx=12,changes=5]; SER108:0:CA[idx=101,changes=5]; GLU102:0:CA[idx=95,changes=4]; LEU63:0:CA[idx=56,changes=4]; ALA36:0:CA[idx=29,changes=4]; ALA62:0:CA[idx=55,changes=4]; TYR7:0:CA[idx=0,changes=3]; PRO37:0:CA[idx=30,changes=3]"
+450K,8,7,8,11.119465827941895,1,1,2,True,96,96,"LEU53:0:CA[idx=46,changes=12]; ALA112:0:CA[idx=105,changes=12]; THR64:0:CA[idx=57,changes=10]; LEU63:0:CA[idx=56,changes=9]; ALA62:0:CA[idx=55,changes=9]; ASN61:0:CA[idx=54,changes=9]; GLY58:0:CA[idx=51,changes=8]; GLY107:0:CA[idx=100,changes=8]; LEU60:0:CA[idx=53,changes=8]; SER108:0:CA[idx=101,changes=7]; PHE113:0:CA[idx=106,changes=7]; VAL110:0:CA[idx=103,changes=7]; GLU102:0:CA[idx=95,changes=7]; ALA25:0:CA[idx=18,changes=6]; PHE111:0:CA[idx=104,changes=6]"
+450K,9,8,9,13.554988861083984,5,2,7,False,,,
+450K,10,9,10,15.115608215332031,1,3,4,False,,,
+450K,11,10,11,18.65829849243164,7,2,9,False,,,
+450K,12,11,12,17.997987747192383,0,5,5,False,,,
+450K,13,12,13,13.33292007446289,4,1,5,True,117,120,"THR42:0:CA[idx=35,changes=14]; SER108:0:CA[idx=101,changes=13]; THR34:0:CA[idx=27,changes=12]; ALA36:0:CA[idx=29,changes=12]; GLY57:0:CA[idx=50,changes=12]; VAL31:0:CA[idx=24,changes=11]; ALA46:0:CA[idx=39,changes=10]; GLY47:0:CA[idx=40,changes=10]; VAL56:0:CA[idx=49,changes=10]; SER109:0:CA[idx=102,changes=10]; PHE113:0:CA[idx=106,changes=10]; LEU33:0:CA[idx=26,changes=9]; LEU53:0:CA[idx=46,changes=9]; CYS50:0:CA[idx=43,changes=9]; GLY107:0:CA[idx=100,changes=9]"
+450K,14,13,14,14.244096755981445,3,3,6,False,,,
+450K,15,14,15,13.374753952026367,0,3,3,False,,,
+450K,16,15,16,16.425405502319336,5,2,7,False,,,
+450K,17,16,17,22.30714225769043,4,5,9,False,,,
+450K,18,17,18,18.448631286621094,3,3,6,False,,,
+450K,19,18,19,15.473732948303223,4,3,7,False,,,
+450K,20,19,20,18.758831024169922,6,5,11,False,,,
+450K,21,20,21,11.708895683288574,2,5,7,True,140,165,"ALA112:0:CA[idx=105,changes=18]; PHE113:0:CA[idx=106,changes=15]; GLY107:0:CA[idx=100,changes=15]; ALA49:0:CA[idx=42,changes=14]; CYS50:0:CA[idx=43,changes=13]; ASP83:0:CA[idx=76,changes=13]; GLY84:0:CA[idx=77,changes=13]; VAL82:0:CA[idx=75,changes=12]; GLY47:0:CA[idx=40,changes=12]; PHE111:0:CA[idx=104,changes=11]; HSD106:0:CA[idx=99,changes=11]; CYS35:0:CA[idx=28,changes=11]; SER48:0:CA[idx=41,changes=11]; PRO44:0:CA[idx=37,changes=10]; SER108:0:CA[idx=101,changes=10]"
+450K,22,21,22,16.214393615722656,8,2,10,False,,,
+450K,23,22,23,16.13799285888672,6,10,16,False,,,
+450K,24,23,24,15.118573188781738,9,7,16,False,,,
+450K,25,24,25,12.479562759399414,8,8,16,True,168,158,"CYS50:0:CA[idx=43,changes=16]; ALA54:0:CA[idx=47,changes=15]; ALA112:0:CA[idx=105,changes=15]; PHE111:0:CA[idx=104,changes=14]; ALA46:0:CA[idx=39,changes=12]; PHE113:0:CA[idx=106,changes=12]; ALA55:0:CA[idx=48,changes=12]; PRO39:0:CA[idx=32,changes=12]; CYS35:0:CA[idx=28,changes=11]; LEU80:0:CA[idx=73,changes=11]; TYR7:0:CA[idx=0,changes=11]; ALA8:0:CA[idx=1,changes=10]; GLY58:0:CA[idx=51,changes=10]; GLY57:0:CA[idx=50,changes=10]; GLY41:0:CA[idx=34,changes=10]"
+450K,26,25,26,13.119580268859863,3,8,11,True,126,127,"THR32:0:CA[idx=25,changes=16]; ALA112:0:CA[idx=105,changes=13]; SER48:0:CA[idx=41,changes=11]; GLY47:0:CA[idx=40,changes=11]; PRO44:0:CA[idx=37,changes=10]; PHE113:0:CA[idx=106,changes=10]; VAL110:0:CA[idx=103,changes=10]; GLN87:0:CA[idx=80,changes=10]; ALA105:0:CA[idx=98,changes=10]; PRO39:0:CA[idx=32,changes=9]; HSE43:0:CA[idx=36,changes=9]; PHE111:0:CA[idx=104,changes=9]; CYS50:0:CA[idx=43,changes=9]; ALA49:0:CA[idx=42,changes=9]; SER40:0:CA[idx=33,changes=8]"
+450K,27,26,27,14.62565803527832,6,3,9,False,,,
+450K,28,27,28,14.055550575256348,2,6,8,False,,,
+450K,29,28,29,19.66607666015625,5,2,7,False,,,
+450K,30,29,30,13.0709867477417,3,4,7,True,199,195,"MET103:0:CA[idx=96,changes=16]; THR24:0:CA[idx=17,changes=15]; SER21:0:CA[idx=14,changes=15]; ALA105:0:CA[idx=98,changes=15]; TRP86:0:CA[idx=79,changes=15]; THR23:0:CA[idx=16,changes=14]; ASN104:0:CA[idx=97,changes=14]; ALA51:0:CA[idx=44,changes=14]; VAL16:0:CA[idx=9,changes=14]; CYS50:0:CA[idx=43,changes=13]; PHE111:0:CA[idx=104,changes=13]; THR34:0:CA[idx=27,changes=13]; ALA22:0:CA[idx=15,changes=13]; SER48:0:CA[idx=41,changes=12]; GLY17:0:CA[idx=10,changes=12]"
+450K,31,30,31,15.081510543823242,2,4,6,False,,,
+450K,32,31,32,13.311273574829102,3,1,4,True,120,105,"VAL56:0:CA[idx=49,changes=12]; ASN61:0:CA[idx=54,changes=11]; THR64:0:CA[idx=57,changes=11]; ALA62:0:CA[idx=55,changes=11]; GLY19:0:CA[idx=12,changes=11]; PHE113:0:CA[idx=106,changes=10]; ALA51:0:CA[idx=44,changes=10]; THR23:0:CA[idx=16,changes=10]; ALA105:0:CA[idx=98,changes=10]; ARG65:0:CA[idx=58,changes=10]; ALA55:0:CA[idx=48,changes=9]; LYS18:0:CA[idx=11,changes=9]; ALA112:0:CA[idx=105,changes=9]; GLY57:0:CA[idx=50,changes=9]; GLY66:0:CA[idx=59,changes=9]"
+450K,33,32,33,15.724326133728027,7,3,10,False,,,
+450K,34,33,34,16.905517578125,3,7,10,False,,,
+450K,35,34,35,13.023127555847168,5,2,7,True,192,164,"VAL16:0:CA[idx=9,changes=16]; ALA22:0:CA[idx=15,changes=16]; LYS89:0:CA[idx=82,changes=15]; THR23:0:CA[idx=16,changes=15]; VAL13:0:CA[idx=6,changes=14]; LEU14:0:CA[idx=7,changes=13]; THR15:0:CA[idx=8,changes=13]; THR24:0:CA[idx=17,changes=13]; ARG90:0:CA[idx=83,changes=13]; PHE113:0:CA[idx=106,changes=13]; SER21:0:CA[idx=14,changes=13]; LEU12:0:CA[idx=5,changes=12]; GLY88:0:CA[idx=81,changes=12]; VAL20:0:CA[idx=13,changes=12]; VAL85:0:CA[idx=78,changes=11]"
+450K,36,35,36,16.207378387451172,2,5,7,False,,,
+450K,37,36,37,14.808969497680664,4,3,7,False,,,
+450K,38,37,38,11.85180950164795,7,5,12,True,134,128,"VAL13:0:CA[idx=6,changes=13]; ALA11:0:CA[idx=4,changes=11]; VAL69:0:CA[idx=62,changes=11]; PRO72:0:CA[idx=65,changes=10]; ASP59:0:CA[idx=52,changes=10]; GLY58:0:CA[idx=51,changes=10]; LEU12:0:CA[idx=5,changes=10]; GLU28:0:CA[idx=21,changes=10]; ASN61:0:CA[idx=54,changes=10]; VAL16:0:CA[idx=9,changes=9]; PHE111:0:CA[idx=104,changes=9]; GLY70:0:CA[idx=63,changes=9]; CYS35:0:CA[idx=28,changes=9]; LEU63:0:CA[idx=56,changes=9]; CYS71:0:CA[idx=64,changes=8]"
+450K,39,38,39,17.957286834716797,2,6,8,False,,,
+450K,40,39,40,24.071393966674805,6,3,9,False,,,
+450K,41,40,41,20.76348114013672,4,6,10,False,,,
+450K,42,41,42,14.58124828338623,4,3,7,False,,,
+450K,43,42,43,14.030485153198242,3,4,7,False,,,
+450K,44,43,44,16.629589080810547,1,5,6,False,,,
+450K,45,44,45,19.933181762695312,2,1,3,False,,,
+450K,46,45,46,16.295536041259766,4,1,5,False,,,
+450K,47,46,47,15.632728576660156,5,4,9,False,,,
+450K,48,47,48,15.237226486206055,1,5,6,False,,,
+450K,49,48,49,13.665863037109375,4,1,5,False,,,

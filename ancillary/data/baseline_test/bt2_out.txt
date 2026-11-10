@@ -1,0 +1,14 @@
+LODO beta trace (6 stats)         median within-domain AUC 0.939  min 0.52
+LODO beta trace + spanning        median within-domain AUC 0.982  min 0.71
+LODO spanning only                median within-domain AUC 0.978  min 0.61
+LODO contact baselines            median within-domain AUC 1.000  min 1.00
+LODO contact + spanning           median within-domain AUC 1.000  min 1.00
+bootstrap median-domain AUC diff spanning - beta_min: 0.020 95% CI [-0.004,0.083]  P(diff<=0)=0.171
+bootstrap median-domain AUC diff spanning - beta_mean: 0.044 95% CI [-0.001,0.206]  P(diff<=0)=0.105
+predict continuity (spanning>0) from retained6   : median within-domain AUC 0.846
+predict continuity (spanning>0) from jacc_consec : median within-domain AUC 0.815
+predict continuity (spanning>0) from flux        : median within-domain AUC 0.668
+predict continuity (spanning>0) from n_edges     : median within-domain AUC 0.823
+predict continuity (spanning>0) from beta_min    : median within-domain AUC 0.899
+predict continuity (spanning>0) from Q           : median within-domain AUC 0.829
+continuous windows: 1034  with retained6 below the median of hidden-replacement windows: 176

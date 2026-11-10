@@ -1,0 +1,45 @@
+{
+  "counts": {
+    "('development', 320)": {
+      "runs": 45,
+      "occupied": 1125,
+      "hidden": 4,
+      "runs_with_hidden": 3
+    },
+    "('development', 450)": {
+      "runs": 41,
+      "occupied": 814,
+      "hidden": 466,
+      "runs_with_hidden": 41
+    },
+    "('development', 413)": {
+      "runs": 14,
+      "occupied": 343,
+      "hidden": 83,
+      "runs_with_hidden": 10
+    },
+    "('validation', 320)": {
+      "runs": 25,
+      "occupied": 625,
+      "hidden": 0,
+      "runs_with_hidden": 0
+    },
+    "('validation', 413)": {
+      "runs": 13,
+      "occupied": 320,
+      "hidden": 73,
+      "runs_with_hidden": 9
+    },
+    "('validation', 450)": {
+      "runs": 25,
+      "occupied": 455,
+      "hidden": 276,
+      "runs_with_hidden": 25
+    }
+  },
+  "runs_in_correlation": 175,
+  "run_spearman": 0.7927194033828208,
+  "median_within_domain_run_spearman": 0.9191595089904117,
+  "all_window_spearman": 0.5773004145698023,
+  "constant_one_hidden_windows": 0
+}

@@ -1,0 +1,4 @@
+LODO predict continuity from beta trace                : median AUC 0.907 min 0.78 max 0.99
+LODO predict continuity from contacts                  : median AUC 0.822 min 0.60 max 0.97
+LODO predict continuity from beta trace + contacts     : median AUC 0.918 min 0.80 max 0.99
+LODO predict continuity from beta trace + contacts + Q : median AUC 0.917 min 0.80 max 0.99

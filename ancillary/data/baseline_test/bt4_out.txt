@@ -1,0 +1,17 @@
+spanning classes                         0.978 min 0.61
+fraction of classes spanning             0.894 min 0.64
+longest class overlap                    0.813 min 0.71
+mean class overlap                       0.985 min 0.74
+mean class lifetime                      0.907 min 0.62
+step-to-step class survival              0.981 min 0.77
+turnover (births+deaths per frame)       0.722 min 0.00
+number of classes                        0.563 min 0.00
+minimum                                  0.933 min 0.48
+mean                                     0.926 min 0.28
+maximum                                  0.825 min 0.20
+standard deviation                       0.668 min 0.26
+lag-1 autocorrelation                    0.445 min 0.17
+mean $|\Delta\beta_1|$                   0.619 min 0.14
+LODO zigzag combined      0.980 min 0.76
+LODO framewise combined   0.939 min 0.52
+LODO both                 0.987 min 0.75

@@ -1,0 +1,54 @@
+{
+  "union": {
+    "spanning_rank": 0,
+    "frame_dimensions": [
+      1,
+      1,
+      1,
+      1,
+      3,
+      2,
+      3,
+      2,
+      1,
+      2,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "verification_seconds": 0.04287737503182143
+  },
+  "intersection": {
+    "spanning_rank": 0,
+    "frame_dimensions": [
+      1,
+      1,
+      1,
+      1,
+      3,
+      2,
+      3,
+      2,
+      1,
+      2,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "verification_seconds": 0.038849459029734135
+  }
+}

@@ -1,0 +1,4 @@
+variant,mutation,effect,ddg_kcal_mol,protein,pdb_id,uniprot,ph,reported_temperature_c,method,measure,pmid,doi,source_note
+wild_type,WT,reference,0.0,T4 lysozyme,2LZM,P00720,5.4,66.48,Thermal,CD,7831309,10.1073/pnas.92.2.452,Reference structure used for every modeled system
+stabilizing,S117V,stabilizing,-2.0,T4 lysozyme,2LZM,P00720,5.4,66.48,Thermal,CD,7831309,10.1073/pnas.92.2.452,FireProtDB 2.0 public mirror record
+destabilizing,G30F,destabilizing,1.5,T4 lysozyme,2LZM,P00720,5.4,66.48,Thermal,CD,7831309,10.1073/pnas.92.2.452,FireProtDB 2.0 public mirror record

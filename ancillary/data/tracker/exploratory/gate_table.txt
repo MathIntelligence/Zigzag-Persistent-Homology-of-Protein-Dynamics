@@ -1,0 +1,19 @@
+== TEST 1b: gated trackers vs zigzag continuity (occupied windows)
+ [debounced zz] n=1932 HR=898
+  full         says continuous: zz-continuous  93.6% | HR windows  82.7% | balanced acc 0.554 | AUC(spanning) median 0.593 worst 0.43 | AUC(step surv) median 0.586 worst 0.39
+  eps          says continuous: zz-continuous  98.9% | HR windows  93.8% | balanced acc 0.526 | AUC(spanning) median 0.660 worst 0.41 | AUC(step surv) median 0.645 worst 0.46
+  full_g0.25   says continuous: zz-continuous   0.2% | HR windows   0.0% | balanced acc 0.501 | AUC(spanning) median 0.500 worst 0.50 | AUC(step surv) median 0.710 worst 0.60
+  eps_g0.25    says continuous: zz-continuous   0.4% | HR windows   0.0% | balanced acc 0.502 | AUC(spanning) median 0.500 worst 0.50 | AUC(step surv) median 0.715 worst 0.61
+  full_g0.5    says continuous: zz-continuous   3.0% | HR windows   0.2% | balanced acc 0.514 | AUC(spanning) median 0.501 worst 0.50 | AUC(step surv) median 0.763 worst 0.60
+  eps_g0.5     says continuous: zz-continuous   7.1% | HR windows   0.3% | balanced acc 0.534 | AUC(spanning) median 0.512 worst 0.50 | AUC(step surv) median 0.770 worst 0.61
+  full_g1.0    says continuous: zz-continuous  54.9% | HR windows  26.2% | balanced acc 0.644 | AUC(spanning) median 0.608 worst 0.47 | AUC(step surv) median 0.686 worst 0.45
+  eps_g1.0     says continuous: zz-continuous  60.7% | HR windows  32.9% | balanced acc 0.639 | AUC(spanning) median 0.617 worst 0.43 | AUC(step surv) median 0.733 worst 0.51
+ [raw zz] n=2312 HR=1376
+  full         says continuous: zz-continuous  94.2% | HR windows  74.7% | balanced acc 0.598 | AUC(spanning) median 0.676 worst 0.47 | AUC(step surv) median 0.646 worst 0.50
+  eps          says continuous: zz-continuous  99.4% | HR windows  88.8% | balanced acc 0.553 | AUC(spanning) median 0.729 worst 0.52 | AUC(step surv) median 0.721 worst 0.50
+  full_g0.25   says continuous: zz-continuous   0.2% | HR windows   0.0% | balanced acc 0.501 | AUC(spanning) median 0.500 worst 0.50 | AUC(step surv) median 0.778 worst 0.58
+  eps_g0.25    says continuous: zz-continuous   0.4% | HR windows   0.0% | balanced acc 0.502 | AUC(spanning) median 0.500 worst 0.50 | AUC(step surv) median 0.776 worst 0.58
+  full_g0.5    says continuous: zz-continuous   3.2% | HR windows   0.2% | balanced acc 0.515 | AUC(spanning) median 0.503 worst 0.50 | AUC(step surv) median 0.793 worst 0.64
+  eps_g0.5     says continuous: zz-continuous   7.8% | HR windows   0.2% | balanced acc 0.538 | AUC(spanning) median 0.514 worst 0.50 | AUC(step surv) median 0.806 worst 0.65
+  full_g1.0    says continuous: zz-continuous  57.6% | HR windows  21.9% | balanced acc 0.678 | AUC(spanning) median 0.641 worst 0.48 | AUC(step surv) median 0.726 worst 0.55
+  eps_g1.0     says continuous: zz-continuous  63.1% | HR windows  26.8% | balanced acc 0.682 | AUC(spanning) median 0.657 worst 0.46 | AUC(step surv) median 0.761 worst 0.57

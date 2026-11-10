@@ -1,0 +1,62 @@
+{
+  "analysis": "Top-20 H1 residue participation as a candidate rigidity heatmap",
+  "status": "PASS",
+  "primary_endpoint": "per-protein Spearman rho(topological score, -RMSF) at 320 K",
+  "preregistered_pass_rule": "at least 9/10 positive protein-level correlations and protein-bootstrap 95% CI for median rho entirely above zero",
+  "proteins": 10,
+  "replicas_per_protein": 5,
+  "temperature_K": 320,
+  "homology_dimension": 1,
+  "epsilon_A": 8.0,
+  "top_bars": 20,
+  "representative_percentages": [
+    10.0,
+    25.0,
+    50.0,
+    75.0,
+    90.0
+  ],
+  "positive_primary_correlations": 9,
+  "median_primary_rho": 0.5103481392557022,
+  "primary_median_rho_protein_bootstrap_95pct_ci": [
+    0.2101357466063348,
+    0.6512312427772675
+  ],
+  "median_contact_degree_baseline_rho": 0.27961717802332314,
+  "median_partial_rho_controlling_contact_degree": 0.46484453963278416,
+  "median_secondary_burial_rho": 0.5956302521008403,
+  "median_secondary_hydropathy_rho": 0.22704141172457865,
+  "median_secondary_hydrophobic_core_auc": 0.8404255319148937,
+  "proteins_with_defined_hydrophobic_core_auc": 7,
+  "minimum_representative_view_recovery_fraction": 1.0,
+  "top_bar_sensitivity": {
+    "5": {
+      "median_rho_topology_vs_negative_rmsf": 0.428625470284877,
+      "protein_bootstrap_95pct_ci": [
+        0.19394957983193276,
+        0.6214165666266507
+      ],
+      "positive_proteins": 9,
+      "proteins_evaluated": 10
+    },
+    "10": {
+      "median_rho_topology_vs_negative_rmsf": 0.4884513805522208,
+      "protein_bootstrap_95pct_ci": [
+        0.2179591836734694,
+        0.6422670606704219
+      ],
+      "positive_proteins": 9,
+      "proteins_evaluated": 10
+    },
+    "20": {
+      "median_rho_topology_vs_negative_rmsf": 0.5103481392557022,
+      "protein_bootstrap_95pct_ci": [
+        0.2101357466063348,
+        0.6512312427772675
+      ],
+      "positive_proteins": 9,
+      "proteins_evaluated": 10
+    }
+  },
+  "interpretation_boundary": "A pass supports a residue-level topological rigidity descriptor under this protocol. It does not establish thermodynamic stability, folding free energy, melting temperature, or mutation DeltaDeltaG prediction."
+}

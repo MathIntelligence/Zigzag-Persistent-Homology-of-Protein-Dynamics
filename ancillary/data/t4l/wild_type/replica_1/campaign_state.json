@@ -1,0 +1,26 @@
+{
+  "variant": "wild_type",
+  "mutation": "WT",
+  "replica": 1,
+  "completed_production_ps": 100000.0,
+  "target_production_ps": 100000.0,
+  "segment_ps": 50000.0,
+  "completed": true,
+  "latest_checkpoint": "/lustre/isaac24/proj/UTK0323/mrajgor/fireprotdb_md_validation/campaign_100ns_3rep/wild_type/replica_1/latest.chk",
+  "segments": [
+    {
+      "completed_production_ps": 50000.0,
+      "target_boundary_ps": 50000.0,
+      "steps_run": 2000000,
+      "wall_seconds": 1265.2997770309448,
+      "checkpoint_step": 25050000
+    },
+    {
+      "completed_production_ps": 100000.0,
+      "target_boundary_ps": 100000.0,
+      "steps_run": 2550000,
+      "wall_seconds": 1627.0917930603027,
+      "checkpoint_step": 50050000
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "variant": "stabilizing_S117V",
+  "mutation": "SER-117-VAL",
+  "replica": 1,
+  "completed_production_ps": 100000.0,
+  "target_production_ps": 100000.0,
+  "segment_ps": 50000.0,
+  "completed": true,
+  "latest_checkpoint": "/lustre/isaac24/proj/UTK0323/mrajgor/fireprotdb_md_validation/campaign_100ns_3rep/stabilizing_S117V/replica_1/latest.chk",
+  "segments": [
+    {
+      "completed_production_ps": 50000.0,
+      "target_boundary_ps": 50000.0,
+      "steps_run": 1000000,
+      "wall_seconds": 635.1821894645691,
+      "checkpoint_step": 25050000
+    },
+    {
+      "completed_production_ps": 100000.0,
+      "target_boundary_ps": 100000.0,
+      "steps_run": 1450000,
+      "wall_seconds": 931.6099660396576,
+      "checkpoint_step": 50050000
+    }
+  ]
+}

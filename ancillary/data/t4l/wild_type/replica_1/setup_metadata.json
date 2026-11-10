@@ -1,0 +1,28 @@
+{
+  "variant": "wild_type",
+  "mutation": "WT",
+  "replica": 1,
+  "source_pdb": "/lustre/isaac24/proj/UTK0323/mrajgor/fireprotdb_md_validation/2LZM.pdb",
+  "force_field_files": [
+    "amber14-all.xml",
+    "amber14/tip3pfb.xml"
+  ],
+  "solvent": "explicit",
+  "ensemble": "NPT",
+  "pH_used_for_hydrogen_placement": 5.4,
+  "temperature_K": 300.0,
+  "pressure_bar": 1.0,
+  "ionic_strength_M": 0.15,
+  "padding_nm": 1.0,
+  "cutoff_nm": 1.0,
+  "timestep_fs": 2.0,
+  "friction_per_ps": 1.0,
+  "minimize_iterations": 1000,
+  "equilibration_ps": 100.0,
+  "equilibration_steps": 50000,
+  "seed": 20260725,
+  "platform": "OpenCL",
+  "atoms": 34769,
+  "residues": 10917,
+  "setup_wall_seconds": 53.553303241729736
+}

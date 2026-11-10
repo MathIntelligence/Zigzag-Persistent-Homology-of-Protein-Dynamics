@@ -1,0 +1,92 @@
+
+== TEST 1 [DEBOUNCED zigzag (paper setting, eps6 deb3)] occupied windows 1932, continuous 1034, hidden replacement 898
+  tracker[full] says continuous: in zigzag-continuous 93.6% | in hidden-replacement 82.7% | agreement 58.1% | Spearman(trk spanning, zz spanning) 0.42
+  hidden-replacement windows the tracker labels hidden replacement: 17.3%
+  tracker[eps] says continuous: in zigzag-continuous 98.9% | in hidden-replacement 93.8% | agreement 55.8% | Spearman(trk spanning, zz spanning) 0.44
+  hidden-replacement windows the tracker labels hidden replacement: 6.2%
+  AUC predicting continuity  trk_spanning_full          median 0.593 worst 0.43 (n=14)
+  AUC predicting continuity  trk_step_survival_full     median 0.586 worst 0.39 (n=14)
+  AUC predicting continuity  trk_mean_overlap_full      median 0.598 worst 0.37 (n=14)
+  AUC predicting continuity  trk_mean_life_full         median 0.598 worst 0.37 (n=14)
+  AUC predicting continuity  trk_max_overlap_full       median 0.544 worst 0.44 (n=14)
+  AUC predicting continuity  trk_spanning_eps           median 0.660 worst 0.41 (n=14)
+  AUC predicting continuity  trk_step_survival_eps      median 0.645 worst 0.46 (n=14)
+  AUC predicting continuity  trk_mean_overlap_eps       median 0.625 worst 0.46 (n=14)
+  AUC predicting continuity  trk_mean_life_eps          median 0.625 worst 0.46 (n=14)
+  AUC predicting continuity  trk_max_overlap_eps        median 0.529 worst 0.49 (n=14)
+  AUC predicting continuity  beta_min                   median 0.899 worst 0.78 (n=14)
+  LODO predicting continuity beta trace                 median 0.907 worst 0.78 (n=14)
+  LODO predicting continuity tracker                    median 0.674 worst 0.44 (n=14)
+  LODO predicting continuity beta trace + tracker       median 0.906 worst 0.77 (n=14)
+
+== TEST 1 [RAW zigzag (eps6 deb0; same input as the framewise diagrams)] occupied windows 2312, continuous 936, hidden replacement 1376
+  tracker[full] says continuous: in zigzag-continuous 94.2% | in hidden-replacement 74.7% | agreement 53.2% | Spearman(trk spanning, zz spanning) 0.48
+  hidden-replacement windows the tracker labels hidden replacement: 25.3%
+  tracker[eps] says continuous: in zigzag-continuous 99.4% | in hidden-replacement 88.8% | agreement 46.9% | Spearman(trk spanning, zz spanning) 0.49
+  hidden-replacement windows the tracker labels hidden replacement: 11.2%
+  AUC predicting continuity  trk_spanning_full          median 0.676 worst 0.47 (n=14)
+  AUC predicting continuity  trk_step_survival_full     median 0.646 worst 0.50 (n=14)
+  AUC predicting continuity  trk_mean_overlap_full      median 0.664 worst 0.49 (n=14)
+  AUC predicting continuity  trk_mean_life_full         median 0.664 worst 0.49 (n=14)
+  AUC predicting continuity  trk_max_overlap_full       median 0.583 worst 0.44 (n=14)
+  AUC predicting continuity  trk_spanning_eps           median 0.729 worst 0.52 (n=14)
+  AUC predicting continuity  trk_step_survival_eps      median 0.721 worst 0.50 (n=14)
+  AUC predicting continuity  trk_mean_overlap_eps       median 0.716 worst 0.50 (n=14)
+  AUC predicting continuity  trk_mean_life_eps          median 0.716 worst 0.50 (n=14)
+  AUC predicting continuity  trk_max_overlap_eps        median 0.546 worst 0.49 (n=14)
+  AUC predicting continuity  beta_min                   median 0.912 worst 0.76 (n=14)
+  LODO predicting continuity beta trace                 median 0.919 worst 0.76 (n=14)
+  LODO predicting continuity tracker                    median 0.754 worst 0.49 (n=14)
+  LODO predicting continuity beta trace + tracker       median 0.916 worst 0.74 (n=14)
+
+== TEST 2 native-like (Q>=.6) vs unfolded (Q<.3), occupied windows 1554
+  beta_min                   median 0.933 worst 0.48 (n=13)
+  trk_spanning_full          median 0.446 worst 0.16 (n=13)
+  trk_step_survival_full     median 0.427 worst 0.18 (n=13)
+  trk_mean_overlap_full      median 0.477 worst 0.21 (n=13)
+  trk_mean_life_full         median 0.477 worst 0.21 (n=13)
+  trk_max_overlap_full       median 0.518 worst 0.25 (n=13)
+  trk_spanning_eps           median 0.514 worst 0.16 (n=13)
+  trk_step_survival_eps      median 0.604 worst 0.34 (n=13)
+  trk_mean_overlap_eps       median 0.602 worst 0.37 (n=13)
+  trk_mean_life_eps          median 0.602 worst 0.37 (n=13)
+  trk_max_overlap_eps        median 0.518 worst 0.45 (n=13)
+  zz_spanning                median 0.978 worst 0.61 (n=13)
+  zz_mean_overlap            median 0.985 worst 0.74 (n=13)
+  zz_step_survival           median 0.981 worst 0.77 (n=13)
+  LODO framewise beta trace       median 0.939 worst 0.52 (n=13)
+  LODO tracker                    median 0.697 worst 0.46 (n=13)
+  LODO zigzag                     median 0.980 worst 0.76 (n=13)
+  LODO tracker + zigzag           median 0.994 worst 0.81 (n=13)
+  LODO beta + tracker             median 0.961 worst 0.64 (n=13)
+  LODO beta + tracker + zigzag    median 0.992 worst 0.82 (n=13)
+  -- paired, within-domain
+  best single tracker feature: trk_step_survival_eps
+  zz mean overlap vs best tracker feature            median diff +0.340, wins 13/13 (ties 0), sign p=0.000122
+  best tracker feature vs beta_min                   median diff -0.219, wins 0/13 (ties 0), sign p=1
+  LODO zigzag vs tracker                             median diff +0.251, wins 12/13 (ties 1), sign p=0.000244
+  LODO tracker+zigzag vs tracker                     median diff +0.251, wins 12/13 (ties 1), sign p=0.000244
+  LODO tracker+zigzag vs zigzag                      median diff +0.000, wins 6/13 (ties 4), sign p=0.254
+  LODO beta+tracker+zigzag vs beta+tracker           median diff +0.019, wins 11/13 (ties 2), sign p=0.000488
+
+== TEST 3 compact windows, Q>=.6 vs Q<.45, windows 495, domains 9 (exploratory cohort)
+  beta_min                   median 0.815 worst 0.43 (n=9)
+  trk_spanning_full          median 0.310 worst 0.11 (n=9)
+  trk_step_survival_full     median 0.305 worst 0.16 (n=9)
+  trk_mean_overlap_full      median 0.317 worst 0.10 (n=9)
+  trk_mean_life_full         median 0.317 worst 0.10 (n=9)
+  trk_max_overlap_full       median 0.500 worst 0.25 (n=9)
+  trk_spanning_eps           median 0.375 worst 0.10 (n=9)
+  trk_step_survival_eps      median 0.408 worst 0.27 (n=9)
+  trk_mean_overlap_eps       median 0.454 worst 0.18 (n=9)
+  trk_mean_life_eps          median 0.454 worst 0.18 (n=9)
+  trk_max_overlap_eps        median 0.500 worst 0.42 (n=9)
+  zz_mean_overlap            median 0.963 worst 0.70 (n=9)
+  zz_step_survival           median 0.936 worst 0.71 (n=9)
+  LODO framewise beta trace       median 0.818 worst 0.46 (n=9)
+  LODO tracker                    median 0.655 worst 0.46 (n=9)
+  LODO zigzag                     median 0.896 worst 0.69 (n=9)
+  LODO tracker + zigzag           median 0.865 worst 0.77 (n=9)
+  LODO beta + tracker + zigzag    median 0.860 worst 0.65 (n=9)
+  LODO tracker+zigzag vs tracker                     median diff +0.255, wins 8/9 (ties 0), sign p=0.0195
+  LODO zigzag vs tracker                             median diff +0.276, wins 7/9 (ties 0), sign p=0.0898

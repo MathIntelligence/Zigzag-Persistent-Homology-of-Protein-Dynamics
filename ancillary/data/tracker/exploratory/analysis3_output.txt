@@ -1,0 +1,29 @@
+
+== TEST 2b native-like vs unfolded (Q>=.6 vs <.3), all tracker variants incl. gated: windows 1554, domains 13
+  LODO beta trace               median 0.939 worst 0.52
+  LODO tracker                  median 0.960 worst 0.77
+  LODO zigzag                   median 0.980 worst 0.76
+  LODO tracker + zigzag         median 0.998 worst 0.89
+  LODO beta + tracker           median 0.956 worst 0.76
+  LODO beta + tracker + zigzag  median 0.998 worst 0.89
+  zigzag - tracker: median +0.000, wins 4/13 (ties 3), bootstrap 95% CI [-0.034,+0.048], P(<=0)=0.756
+  tracker + zigzag - tracker: median +0.020, wins 9/13 (ties 3), bootstrap 95% CI [+0.000,+0.061], P(<=0)=0.043
+  tracker + zigzag - zigzag: median +0.010, wins 8/13 (ties 3), bootstrap 95% CI [+0.000,+0.060], P(<=0)=0.207
+  beta + tracker + zigzag - beta + tracker: median +0.014, wins 8/13 (ties 4), bootstrap 95% CI [+0.000,+0.030], P(<=0)=0.223
+  tracker - beta trace: median +0.018, wins 7/13 (ties 2), bootstrap 95% CI [-0.035,+0.099], P(<=0)=0.245
+  best single tracker features: [('trk_mean_overlap_eps_g0.25', 'median 0.861 worst 0.52'), ('trk_mean_life_eps_g0.25', 'median 0.861 worst 0.52'), ('trk_step_survival_eps_g0.5', 'median 0.847 worst 0.53'), ('trk_step_survival_eps_g0.25', 'median 0.837 worst 0.52'), ('trk_mean_overlap_eps_g0.5', 'median 0.827 worst 0.53')]
+  zz_mean_overlap median 0.985 worst 0.74
+
+== TEST 1c predicting zigzag continuity (deb3) among occupied windows: windows 1932, domains 14
+  LODO beta trace               median 0.907 worst 0.78
+  LODO tracker                  median 0.789 worst 0.60
+  LODO beta + tracker           median 0.901 worst 0.74
+  beta + tracker - beta trace: median -0.002, wins 5/14 (ties 0), bootstrap 95% CI [-0.015,+0.004], P(<=0)=0.847
+  beta trace - tracker: median +0.107, wins 14/14 (ties 0), bootstrap 95% CI [+0.060,+0.154], P(<=0)=0.000
+
+== TEST 1d predicting RAW zigzag continuity among raw-occupied windows: windows 2312, domains 14
+  LODO beta trace               median 0.919 worst 0.76
+  LODO tracker                  median 0.807 worst 0.62
+  LODO beta + tracker           median 0.914 worst 0.73
+  beta + tracker - beta trace: median -0.007, wins 3/14 (ties 0), bootstrap 95% CI [-0.018,+0.000], P(<=0)=0.971
+  beta trace - tracker: median +0.070, wins 14/14 (ties 0), bootstrap 95% CI [+0.041,+0.120], P(<=0)=0.000

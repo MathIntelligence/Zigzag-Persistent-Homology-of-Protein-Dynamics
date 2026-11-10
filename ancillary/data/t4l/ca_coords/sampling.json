@@ -1,0 +1,101 @@
+{
+  "destabilizing_G30F_r1_ca": {
+    "source_sha256": "0bb75a949d7a9bf86d013325463a34b561bebbd9dde713d4c98346cb4bb14d4a",
+    "source_shape": [
+      2000,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  },
+  "wild_type_r1_ca": {
+    "source_sha256": "9eaa2746cf194f4fecb85c807e032963e71c531cf45dcfa02677739fb1b17e33",
+    "source_shape": [
+      2001,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  },
+  "stabilizing_S117V_r1_ca": {
+    "source_sha256": "361b78904e590a610d37333b039a239fe14c0a3285f4fd211f2f474eafe68ebc",
+    "source_shape": [
+      2002,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  },
+  "destabilizing_G30F_r2_ca": {
+    "source_sha256": "a8410809aa1373d6e9debde4ea02f078e9eb545a5985b51d798eb4cf3849b97a",
+    "source_shape": [
+      2000,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  },
+  "wild_type_r2_ca": {
+    "source_sha256": "b84b86023ae80faa782a7ad5c91d02ee40541248c988fd7e43a3b1c0d416acca",
+    "source_shape": [
+      2001,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  },
+  "wild_type_r0_ca": {
+    "source_sha256": "e4afb1c0b103ccb0796c9dd036c9feca0795b92077bf1bb6bc83e7f726399e89",
+    "source_shape": [
+      2001,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  },
+  "destabilizing_G30F_r0_ca": {
+    "source_sha256": "80c774ab56bdf485eddd2620a6eac49da592f56bd238c9551e4c5430a77286d1",
+    "source_shape": [
+      2000,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  },
+  "stabilizing_S117V_r2_ca": {
+    "source_sha256": "1a79bbf26e5262a6d25c7ae66c084a4949c41ae6920f2a8362b7fab676ee5ecb",
+    "source_shape": [
+      2001,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  },
+  "stabilizing_S117V_r0_ca": {
+    "source_sha256": "b3534802f4d85c1fe6c918722de2141c9947faf8dd4588ce0fa76be6abe53294",
+    "source_shape": [
+      2002,
+      164,
+      3
+    ],
+    "included_stride": 5,
+    "included_spacing_ns": 0.25,
+    "coordinate_unit": "angstrom"
+  }
+}
